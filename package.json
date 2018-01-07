@@ -1,0 +1,24 @@
+{
+	"name": "personal-capital",
+	"version": "0.1.0",
+	"description": "Automated browser tests",
+	"scripts": {
+	"test": "wdio wdio.conf.js"
+},
+"keywords": [
+	"selenium",
+	"webdriverio"
+],
+"author": "sofia",
+"license": "UNLICENSED",
+"dependencies": {
+		"chai": "^3.5.0",
+		"eslint": "2.10.2",
+		"mocha": "^4.1.0",
+		"selenium-standalone": "^5.7.2",
+		"selenium-webdriver": "^3.0.0-beta-3",
+		"wdio-mocha-framework": "^0.4.3",
+		"wdio-selenium-standalone-service": "0.0.7",
+		"webdriverio": "^4.9.11"
+	}
+}
